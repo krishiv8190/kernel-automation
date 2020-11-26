@@ -16,11 +16,11 @@ on:
     
 
 env:
-  KERNEL_SOURCE: https://github.com/shivamjadon/Drona_Kernel_Rosy.git
-  BRANCH: q-caf
-  DEFCONFIG: drona-rosy_defconfig
+  KERNEL_SOURCE: https://github.com/darkhz/revvz_sakura
+  BRANCH: beta-4.9-Q
+  DEFCONFIG: sakura_defconfig
   TZ: Asia/Kolkata
-  MIR: bit
+  MIR: wet
   TOOLCHAIN: https://github.com/mscalindt/aarch64-linux-android-4.9.git
   ARCH: arm64
   SUBARCH: arm64
