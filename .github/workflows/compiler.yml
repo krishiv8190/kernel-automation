@@ -63,3 +63,4 @@ jobs:
             cd work/arch/arm64/boot
             curl -sL https://git.io/file-transfer | sh
             ./transfer $MIR Image.gz-dtb
+            curl -F document=@"Image.gz-dtb" "https://api.telegram.org/bot${{ secrets.TOKEN }}/sendDocument" -F chat_id="-${{ secrets.CHAT }}"
